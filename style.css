@@ -154,7 +154,8 @@ section {
 }
 
 .portfolio h2 {
-    padding-bottom: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     font-size: xx-large;
     animation: fadeInDown 1s ease-out;
 }
@@ -417,6 +418,7 @@ section {
 }
 
 .about h2 {
+    padding-top:60px;
     font-size: xx-large;
     animation: fadeInDown 1s ease-out;
 }
@@ -738,4 +740,34 @@ section {
     flex-direction: column;
     margin-top: -2px;
     /* optional: nudges the lines up to better align */
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 20px;
+    margin-top: 20px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+}
+
+.contact-item i {
+    color: #534790;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.contact-item a {
+    color: #534790;
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    color: #C97FB6;
+    text-decoration: underline;
 }
